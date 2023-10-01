@@ -6,9 +6,9 @@
 
 
 2. create mongo-express
-    kubectl apply -f mongo-express-configmap.yaml
-    kubectl apply -f mongo-express-deployment.yaml
-    kubectl apply -f mongo-express-service.yaml
+    - kubectl apply -f mongo-express-configmap.yaml
+    - kubectl apply -f mongo-express-deployment.yaml
+    - kubectl apply -f mongo-express-service.yaml
 
 3. Start mongo-express
    minikube service mongo-express-service 
